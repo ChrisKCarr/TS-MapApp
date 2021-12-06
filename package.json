@@ -2,7 +2,7 @@
   "homepage": "https://chriskcarr.github.io/TS-MapApp",
   "scripts": {
     "start": "parcel ./index.html",
-    "build": "parcel build",
+    "build": "parcel build ./index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
